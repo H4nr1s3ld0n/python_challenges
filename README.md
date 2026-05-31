@@ -1,6 +1,26 @@
-# python_challenges
-Python challenges and problem solving.  
+# 🐍 Python Challenges
 
-## Tracker
-30/05 : Created password-checker, reads an input from user and returns a security score.
+> **Python challenges and problem solving.** A collection of scripts and projects to practice Python programming concepts.
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow.svg)
+
+## About This Project
+
+This repository contains my journey through Python challenges, from beginner scripts to more complex problem-solving exercises. Each project helps me practice and reinforce concepts.
+
+## 📅 Tracker
+
+| Date | Project | Description |
+|------|---------|-------------|
+| 30/05 | password-checker | Reads user input and returns a security score |
+| 31/05 | quiz-generator | Creates quiz sheets to question students about European countries |
+
+## Contributing
+
+This is a learning project, but contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a Pull Request
