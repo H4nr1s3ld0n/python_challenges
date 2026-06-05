@@ -16,6 +16,7 @@ This repository contains my journey through Python challenges, from beginner scr
 |------|---------|-------------|
 | 30/05 | password-checker | Reads user input and returns a security score |
 | 31/05 | quiz-generator | Creates quiz sheets to question students about European countries |
+| 05/06 | mad_libv | A mad lib program that substitutes strings with user input and writes the output into a file |
 
 ## Contributing
 
