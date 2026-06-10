@@ -27,4 +27,4 @@ if path_to_folder.is_dir():
 	print("Done")
 
 else: 
-	print("Usage : ./zip_script.py <dir> <name>")
+	print("Use : ./zip_script.py <dir>")
