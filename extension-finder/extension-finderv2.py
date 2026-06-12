@@ -30,10 +30,8 @@ if not dest_dir.is_dir():
 	sys.exit(1)
 
 # Copy the files
-
 count = 0
 for root, dirs, files in os.walk(source_dir):
-	file_match = fnmatch.filter(files, f'*{extension}')
 	for file in files:
 		if file.endswith(extension):
 			source_path = os.path.join(root, file)
@@ -45,4 +43,4 @@ for root, dirs, files in os.walk(source_dir):
 			except Exception as e:
 				print(f"Error while copying {file}: {e}")
 		
-print("Done")
+print(f"Done : {count} files copied.")
