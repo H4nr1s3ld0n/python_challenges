@@ -6,18 +6,18 @@ from pathlib import Path
 
 # Validate the arguments
 
-if len(sys.argv) < 3:    
+if len(sys.argv) < 4:    
 	print("Usage: python3 script.py <source_dir> <dest_dir> <extention> ")    
 	sys.exit(1)
 
 path_to_folder = Path(sys.argv[1])
 dest_folder = Path(sys.argv[2])
-extention = Path(sys.argv[3])
+extension = sys.argv[3]
 
 # Just in case the users passes 'txt' instead of '.txt'
 
-if not extention.startswith('.'):    
-	extention = '.' + extention
+if not extension.startswith('.'):    
+	extension = '.' + extension
 
 # Validate source is directory
 
@@ -30,11 +30,11 @@ if not dest_folder.is_dir():
 	sys.exit(1)
 
 # Copy the files
-
+count = 0
 for root, dirs, files in os.walk(path_to_folder):
-	file_match = fnmatch.filter(files, f'*{extention}')
+	file_match = fnmatch.filter(files, f'*{extension}')
 	for file in files:
-		if file.endswith(extention):
+		if file.endswith(extension):
 			print(f"Found file {file} moving to {sys.argv[2]}")
 			file_path = os.path.join(root, file)
 			shutil.copy2(file_path, dest_folder)
