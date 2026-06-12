@@ -19,7 +19,7 @@ This repository contains my journey through Python challenges, from beginner scr
 | 05/06 | mad_libv | A mad lib program that substitutes strings with user input and writes the output into a file |
 | 10/06 | zip-creator | Creates a zipfile starting from a directory |
 | 12/06 | extension-finder | Finds specific extensions and copies the files to a specific directory |
-
+| 13/06 | size-search | Finds files that are greater than the size specified |
 
 ## Contributing
 
