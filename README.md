@@ -20,6 +20,8 @@ This repository contains my journey through Python challenges, from beginner scr
 | 10/06 | zip-creator | Creates a zipfile starting from a directory |
 | 12/06 | extension-finder | Finds specific extensions and copies the files to a specific directory |
 | 13/06 | size-search | Finds files that are greater than the size specified |
+| 16/06 | weather_app | Communicates with a weather API, retrieves data and returns it to the user |
+
 
 ## Contributing
 
