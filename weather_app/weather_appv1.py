@@ -25,7 +25,7 @@ lon = json.loads(response.text)[0]['lon']
 
 response = requests.get(f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API_key}')
 response_data = json.loads(response.text)
-print(response_data)
+#print(response_data)
 
 f_temp = response_data['main']['temp']
 feels_temp = response_data['main']['feels_like']
