@@ -2,7 +2,7 @@ import requests
 import json
 import sys
 
-API_key = 'ENTER_YOUR_API_KEY' # https://openweathermap.org
+API_key = 'ENTER_YOUR_API_KEY' # Create your account and retrieve key there => https://openweathermap.org
 
 if len(sys.argv) < 2:    
   print("Usage: python3 weather_app.py <City_name> (Format : Paris) <country_code> (format : FR)")    
