@@ -8,7 +8,8 @@
 
 ## About This Project
 
-This repository contains my journey through Python challenges, from beginner scripts to more complex problem-solving exercises. Each project helps me practice and reinforce concepts.
+This repository contains my journey through Python challenges, from beginner scripts to more complex problem-solving exercises. Each project helps me practice and reinforce concepts besides working on specific libraries.
+Nowadays with AI everything 'looks' perfect, my code isn't but it's made by me :P 
 
 ## 📅 Tracker
 
@@ -21,7 +22,7 @@ This repository contains my journey through Python challenges, from beginner scr
 | 12/06 | extension-finder | Finds specific extensions and copies the files to a specific directory |
 | 13/06 | size-search | Finds files that are greater than the size specified |
 | 16/06 | weather_app | Communicates with a weather API, retrieves data and returns it to the user |
-
+| 24/06 | web_scraper | Uses Selenium to save locally the main article of a famous newspaper |
 
 ## Contributing
 
