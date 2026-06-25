@@ -22,6 +22,9 @@ This repository contains my journey through Python challenges, from beginner scr
 | 13/06 | size-search | Finds files that are greater than the size specified |
 | 16/06 | weather_app | Communicates with a weather API, retrieves data and returns it to the user |
 | 24/06 | web_scraper | Uses Selenium to save locally the main article of a famous newspaper |
+| 25/06 | sql_meal | Uses sqllite3 : create a database, add meal ingredients, fetch data in the db.|
+
+
 
 ## Contributing
 
