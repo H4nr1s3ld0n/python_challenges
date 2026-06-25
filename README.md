@@ -9,7 +9,6 @@
 ## About This Project
 
 This repository contains my journey through Python challenges, from beginner scripts to more complex problem-solving exercises. Each project helps me practice and reinforce concepts besides working on specific libraries.
-Nowadays with AI everything 'looks' perfect, my code isn't but it's made by me :P 
 
 ## 📅 Tracker
 
