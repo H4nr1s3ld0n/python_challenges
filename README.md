@@ -25,6 +25,8 @@ This repository contains my journey through Python challenges, from beginner scr
 | 25/06 | meal_sql| Uses sqllite3 : create a database, add meal ingredients, fetch data in the db.|
 | 26/06 | meal_sqlv2 | Added advanced search options in the database |
 | 14/07 | pdf_encrypt / pdf_decrypt | Encrypts/Decrypts pdf files with a provided password |
+| 15/07 | pdf_brute | Bruteforces the encrypted pdfs | |
+
 
 ## Contributing
 
