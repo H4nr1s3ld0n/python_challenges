@@ -1,6 +1,7 @@
 ## Simple dictionary attack tool for SHA-512 hashes
 ## Input your /etc/shadow and check if it is dictionary safe
 ## Try with a list like rockyou.txt from SecLists 
+## / ! \ Case sensitive with the list
 
 from passlib.hash import sha512_crypt
 import sys
