@@ -27,6 +27,7 @@ This repository contains my journey through Python challenges, from beginner scr
 | 14/07 | pdf_encrypt / pdf_decrypt | Encrypts/Decrypts pdf files with a provided password |
 | 15/07 | pdf_brute | Bruteforces the encrypted pdfs | |
 | 01/10 | sha512_crackv1 | Dictionary attack on sha-512 hashes |
+| 02/10 | scanner_generic | A basic scanner that grabs banners | 
 
 ## Contributing
 
